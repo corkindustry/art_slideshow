@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #kill the slideshow
 killall fbi
 #
@@ -6,6 +8,3 @@ sleep 10
 #
 #disconnect HDMI
 /opt/vc/bin/tvservice -o
-#
-#disable networking
-#ifconfig eth0 down
