@@ -3,7 +3,7 @@ scripts associated with my photo slideshow raspberry pi
   
 ## Edit rc.local to wait for network and then run slideshow.py  
 **Example:**  
-sudo mount -t nfs SERVERNAME:/ox/photos/~Library /media/photos  
+sudo mount -t nfs SERVERNAME:/media/photos/~Library /media/photos  
 sleep 10  
 /media/photos/art_slideshow/slideshow.py  
   
